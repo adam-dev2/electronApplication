@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
+    <title>My First Electron App</title>
+    <style>
+      body { font-family: system-ui, sans-serif; padding: 2rem; }
+      button { padding: 0.5rem 1rem; }
+      pre { background: #eee; padding: 1rem; border-radius: 6px; }
+    </style>
+  </head>
+  <body>
+    <h1>Going to be File Explorer</h1>
+    <button id="btn">Get Files</button>
+    <!-- <pre id="output">Click the button…</pre>
+    <pre id="versioninfo">Click the button…</pre> -->
+    <pre id="files">get files...</pre>
+    <script src="renderer.js"></script>
+  </body>
+</html>
